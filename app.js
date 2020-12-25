@@ -39,7 +39,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "Sanyam:e95e1914ba8cf9b4416545c1ee83489-us7"
+    auth: "Sanyam:fe95e1914ba8cf9b4416545c1ee83489-us7"
   };
   const request = https.request(url, options, function (response) {   //we want to post data on external resource
     
